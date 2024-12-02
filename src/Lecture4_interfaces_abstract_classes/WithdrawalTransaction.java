@@ -5,6 +5,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Calendar;
 
 public class WithdrawalTransaction extends BaseTransaction {
+
     public WithdrawalTransaction(int amount, @NotNull Calendar date) {
         super(amount, date);
     }
@@ -42,4 +43,3 @@ public class WithdrawalTransaction extends BaseTransaction {
     Assignment 1 Q3: Write the Reverse method - a method unique to the WithdrawalTransaction Class
      */
 }
-

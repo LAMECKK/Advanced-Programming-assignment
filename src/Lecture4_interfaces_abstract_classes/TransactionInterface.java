@@ -1,9 +1,10 @@
 package Lecture4_interfaces_abstract_classes;
+
 import java.util.Calendar;
 
 /**
- * Interface for Transactions
- * Any class that defines a transaction is expected to implement this Interface
+ * Interface for Transactions Any class that defines a transaction is expected
+ * to implement this Interface
  */
 public interface TransactionInterface {
 
@@ -17,5 +18,3 @@ public interface TransactionInterface {
     String getTransactionID();
 
 }
-
-
